@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+:root {
+  --primary-color: #f2c94c;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  background: var(--primary-color);
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+main {
+  width: 75vw;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#input {
+  height: 5rem;
+  /* width: inherit; */
+  width: 72.5vw;
+  margin-top: 5vh;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#transalte-btn {
+  background: var(--primary-color);
+  display: block;
+  border: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+textarea {
+  padding: 1rem;
+}
+
+#output {
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+footer {
+  background: var(--primary-color);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+}
+
+footer h2 {
+  margin: 0.5rem;
+}
+
+footer p {
+  max-width: 75vw;
+  margin: auto;
+}
